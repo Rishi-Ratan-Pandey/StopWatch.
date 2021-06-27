@@ -31,10 +31,10 @@ def add():
 		min_-=59
 		hr+=1
 		if hr<=10:
-			data_2.set(f'0{min_}')
+			data_2.set(f'0{hr}')
 			data_1.set(f'00')
 		if hr>=10:
-			data_2.set(f'{min_}')
+			data_2.set(f'{hr}')
 			data_1.set(f'00')
 
 def start_func():
